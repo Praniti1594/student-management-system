@@ -227,13 +227,13 @@ const genders = [
                   <tr key={student.id}>
 
                     <td>
-                      <img
-                        src={`http://localhost:5000/uploads/${student.photo}`}
-                        alt={student.name}
-                        width="60"
-                        height="60"
-                        className="rounded-circle"
-                      />
+                     <img
+  src={`https://student-management-system-b4ut.onrender.com/uploads/${student.photo}`}
+  alt={student.name}
+  width="60"
+  height="60"
+  className="rounded-circle"
+/>
                     </td>
 
                     <td>
