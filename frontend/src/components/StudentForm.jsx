@@ -340,12 +340,12 @@ console.log(form);
               typeof form.photo ===
                 "string" ? (
                 <div>
-                  <img
-                    src={`http://localhost:5000/uploads/${form.photo}`}
-                    alt="student"
-                    width="150"
-                    className="rounded border d-block mb-2"
-                  />
+               <img
+  src={`https://student-management-system-b4ut.onrender.com/uploads/${form.photo}`}
+  alt="student"
+  width="150"
+  className="rounded border"
+/>
 
                   <button
                     type="button"
