@@ -1,3 +1,4 @@
+
 # 🎓 Student Management System
 
 A full-stack Student Management System built using **React**, **Node.js (Express.js)**, and **PostgreSQL**.
@@ -230,11 +231,11 @@ npm run dev
 
 Add screenshots here:
 
-* Home Page
-* Add Student Page
-* Student List Page
-* Edit Student Page
-* Analytics Dashboard
+<img width="1600" height="720" alt="homepage" src="https://github.com/user-attachments/assets/a95edc11-b6d6-46ec-a277-48da934b91dd" /><img width="1600" height="738" alt="addpage" src="https://github.com/user-attachments/assets/f6ddd3c0-7c31-4e78-88fc-4b1e7d55dde5" />
+<img width="1600" height="719" alt="listpage" src="https://github.com/user-attachments/assets/66575ec3-e79f-4601-a7b9-c55841a653ca" />
+<img width="1918" height="867" alt="edit " src="https://github.com/user-attachments/assets/10b49cfe-8a46-40ba-b670-2c2e3cedd6e9" />
+<img width="1600" height="702" alt="analytics page" src="https://github.com/user-attachments/assets/d0acc90f-4ba4-4be4-a88c-c24052990233" />
+
 
 ---
 
