@@ -17,7 +17,14 @@ app.use("/uploads", express.static("uploads"));
 app.use("/students", studentRoutes);
 
 sequelize
-  .sync({ alter: true })
+  .authenticate()
+  .then(() => {
+    console.log("Database Connected");
+
+    return sequelize.sync({
+      alter: true,
+    });
+  })
   .then(() => {
     app.listen(
       process.env.PORT,
